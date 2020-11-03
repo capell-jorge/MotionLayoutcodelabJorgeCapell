@@ -91,8 +91,8 @@ private val data = listOf(
         highlight = true
     ),
         Step("Step 9",
-        "Jorge Capell Personalizado",
-        "mi Paso a paso personalizado.",
+        "Jorge Capell Personalizado - Mision NASA",
+        "El cohete se equivoco, ahora tiene que llegar a la luna. Tiene que moverse antes la luna para saber la ruta, podras capitan?",
         Basic_Activity::class,
                 highlight = true
 

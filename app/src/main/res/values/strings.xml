@@ -40,4 +40,5 @@
     <string name="title_activity_step8">Running motion with code</string>
     <string name="title_activity_step9">Soy Jorge Capell y este es mi paso personalizado</string>
     <string name="moon">Moon</string>
+    <string name="cohete">Cohete</string>
 </resources>

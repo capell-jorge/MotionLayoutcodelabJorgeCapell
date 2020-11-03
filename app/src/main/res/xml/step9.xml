@@ -37,6 +37,13 @@
                 motion:percentX="0.1"
                 />
             <KeyPosition
+                motion:framePosition="80"
+                motion:motionTarget="@id/cohete"
+                motion:keyPositionType="parentRelative"
+                motion:percentY="0.6"
+                motion:percentX="0.1"
+                />
+            <KeyPosition
                 motion:framePosition="50"
                 motion:motionTarget="@id/moon"
                 motion:keyPositionType="parentRelative"
@@ -44,8 +51,22 @@
                 motion:percentX="0.3"
                 />
             <KeyPosition
+                motion:framePosition="74"
+                motion:motionTarget="@id/cohete"
+                motion:keyPositionType="parentRelative"
+                motion:percentY="0.5"
+                motion:percentX="0.3"
+                />
+            <KeyPosition
                 motion:framePosition="75"
                 motion:motionTarget="@id/moon"
+                motion:keyPositionType="parentRelative"
+                motion:percentY="0.6"
+                motion:percentX="0.1"
+                />
+            <KeyPosition
+                motion:framePosition="75"
+                motion:motionTarget="@id/cohete"
                 motion:keyPositionType="parentRelative"
                 motion:percentY="0.6"
                 motion:percentX="0.1"
@@ -74,6 +95,12 @@
             motion:layout_constraintBottom_toBottomOf="@id/moon"
             motion:layout_constraintTop_toTopOf="@id/moon"
             />
+        <Constraint
+            motion:layout_editor_absoluteY="665dp"
+            android:layout_height="76dp"
+            motion:layout_editor_absoluteX="80dp"
+            android:layout_width="95dp"
+            android:id="@+id/cohete" />
     </ConstraintSet>
 
     <!-- Constraints to apply at the end of the animation -->
@@ -95,5 +122,13 @@
             motion:layout_constraintBottom_toBottomOf="@id/moon"
             motion:layout_constraintTop_toTopOf="@id/moon"
             />
+        <Constraint
+            motion:layout_editor_absoluteY="644dp"
+            android:layout_height="87dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="104dp"
+            android:id="@+id/cohete"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_editor_absoluteX="308dp" />
     </ConstraintSet>
 </MotionScene>

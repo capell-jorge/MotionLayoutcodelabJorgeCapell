@@ -26,12 +26,14 @@
         android:id="@+id/background"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/background"
         android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/background"
         tools:ignore="ContentDescription" />
 
     <ImageView
@@ -49,4 +51,16 @@
         android:text="@string/credits"
         android:textSize="24sp"
         android:textColor="?colorOnPrimary" />
+
+    <ImageView
+        android:id="@+id/cohete"
+        android:layout_width="92dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="@string/cohete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cohete" />
+
 </androidx.constraintlayout.motion.widget.MotionLayout>

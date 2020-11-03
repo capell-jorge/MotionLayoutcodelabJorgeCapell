@@ -89,7 +89,14 @@ private val data = listOf(
         "Changes applied from step 8",
         Step8CompletedActivity::class,
         highlight = true
-    )
+    ),
+        Step("Step 9",
+        "Jorge Capell Personalizado",
+        "mi Paso a paso personalizado.",
+        Basic_Activity::class,
+                highlight = true
+
+        )
 )
 
 class MainActivity : AppCompatActivity() {
